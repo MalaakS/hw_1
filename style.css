@@ -1,0 +1,44 @@
+body {
+    background-image:  url("background-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;    
+    font-family: "Trirong", serif;       
+}
+.backsContact{
+    background-image: linear-gradient(red, red, blue);
+}
+/* Style Contact Page*/
+form {
+    display: block;
+    text-align: center;
+    margin-top: 10em;
+}
+input ,.messContact{
+    width: 30%;
+}
+.submitHome,.submitContact {
+    background-color: rgba(221, 81, 38, 0.945);
+    color: white;
+    border: none;
+    width: 13%;
+    padding: 8px;
+  }
+/*Style home Page*/
+img{
+float: left;
+margin-left: 15px;
+}
+.aboutMeHome{
+    margin-left: 170px;
+}
+table {
+    width: 100%;
+  }
+table,th, td {
+    border: 1px solid rgb(131, 102, 48);
+  }
+.hrCostmizeHome{
+    border: 2px dotted rgb(131, 102, 48);
+    width: 10%;
+}
